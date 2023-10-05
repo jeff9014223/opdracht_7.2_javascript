@@ -1,5 +1,7 @@
+
+
 var budget = 100;
-var product = 60;
+var product = prompt("Hoeveel kost het product dat je wilt kopen?");
 
 let result = document.getElementById("result");
 if (product <= budget) {
